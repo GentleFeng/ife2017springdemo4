@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位和居中问题</title>
+	<style>
+	    body{
+	    	background:#0E0E0E;
+	    	margin:0 auto;
+	    }
+		.mai{
+			width:600px;
+			height:400px;
+			background:#FFFFFF;
+			margin:100px auto;
+			
+		}
+		.bod{
+			width:400px;
+			height:200px;
+			background:#ccc;
+			margin-left:100px;
+			vertical-align:center;
+			margin-bottom:100px;
+			position:relative;
+			top:100px;
+		}
+		
+		#lft{
+			width:50px;
+			height:50px;
+			background:#fc0;
+			border-bottom-right-radius: 100%;
+		}
+		#righ{
+			width:50px;
+			height:50px;
+			background:#fc0;
+			border-top-left-radius: 100%;
+			float:right;
+			position:relative;
+			bottom:-100px;
+		}
+	</style>
+</head>
+<body>
+    <div class="mai">
+	    <div class="bod">
+	 	    <div id="lft">
+	 		
+	 	    </div>
+	 	    <div id="righ">
+	 		
+	 	    </div>
+	    </div>
+	</div>
+</body>
+</html>
